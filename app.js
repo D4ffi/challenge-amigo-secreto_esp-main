@@ -31,8 +31,8 @@ function updateFriends() {
 
 function sortFriend() {
     
-    if (friends.length === 0) {
-        alert('Agrega al menos un nombre');
+    if (friends.length === 0 || friends.length === 1) {
+        alert('Agrega al menos dos amigos');
         return;
     }
 
